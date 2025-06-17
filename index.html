@@ -1,75 +1,709 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
-   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-   <header>
-   <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
-   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-   <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-         <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo">
-         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-   </a>
-   <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-         <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
-         <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-         <span class="sr-only">Open main menu</span>
-         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-         </svg>
-      </button>
-   </div>
-   <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-         <li>
-         <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
-         </li>
-         <li>
-         <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-         </li>
-         <li>
-         <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-         </li>
-         <li>
-         <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-         </li>
-      </ul>
-   </div>
-   </div>
-   </nav>
-   </header>
-     <main class="bg-slate-50" dark:bg-gray-800>
-      <div id="container-01" class="mx-auto px-4 py-20 text-center">
-         <h1 class="text-4xl font-extrabold tracking-tight text-gray-900" dark:text-white >Tu presencia digital comienza aquí</h1>
-         <p dark:text-gray class="mt-6 text-lg leading-relaxed text-gray-600 max-w-2xl mx-auto">Creamos experiencias web atractivas y rápidas con Tailwind CSS 4.1. Dale vida a tus ideas con un diseño moderno y responsivo.</p>
-         <div id="container-02" class="mt-8 flex justify-center gap-6">
-            <button id="start" class="inline-block px-6 py-3 text-white bg-blue-600 rounded-lg">Comenzar</button>
-            <button id="demo" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg">Ver demo</button>
-         </div>
-         <div id="container-04" class="grid grid-cols-2 gap-4 md:grid-cols-4">
-               <img src="https://placehold.co/50" alt="Imagen 1" class="w-full h-auto rounded">
-             <img src="https://placehold.co/50" alt="Imagen 2" class="w-full h-auto rounded">
-             <img src="https://placehold.co/50" alt="Imagen 3" class="w-full h-auto rounded">
-             <img src="https://placehold.co/50" alt="Imagen 4" class="w-full h-auto rounded">
-         </div>
-          <section class="bg-white dark:bg-gray-900">
-            <div id="container-03" class="px-4 py-8 mx-auto">
-                  <div id="container-04">
-                     <img src="https://placehold.co/50" alt="Imagen 1" class="w-full h-auto rounded">
-                     <img src="https://placehold.co/50" alt="Imagen 2" class="w-full h-auto rounded">
-                     <img src="https://placehold.co/50" alt="Imagen 3" class="w-full h-auto rounded">
-                     <img src="https://placehold.co/50" alt="Imagen 4" class="w-full h-auto rounded">
-                  </div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them" />
+        <meta name="author" content="Your name" />
+
+        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+        <meta property="og:site_name" content="" /> <!-- website name -->
+        <meta property="og:site" content="" /> <!-- website link -->
+        <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+        <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
+
+        <!-- Webpage Title -->
+        <title>Pavo Webpage Title</title>
+
+        <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+        <link href="css/fontawesome-all.css" rel="stylesheet" />
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+        <link href="css/swiper.css" rel="stylesheet" />
+        <link href="css/magnific-popup.css" rel="stylesheet" />
+        <link href="public/styles.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <!-- Favicon  -->
+        <link rel="icon" href="images/favicon.png" />
+    </head>
+    <body data-spy="scroll" data-target=".fixed-top">
+
+        <nav class="navbar fixed-top bg-pink-100 shadow-md backdrop-blur-lg z-50">
+            <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
+                
+                <!-- Logo -->
+                <a class="inline-block mr-4 py-1 text-2xl font-bold text-pink-700 whitespace-nowrap hover:text-pink-900 focus:text-pink-900" href="index.html">
+                    <img src="public/assets/logo.png" alt="Beauty Nails Logo" class="h-10 inline-block mr-2" />
+                    GlamNails
+                </a>
+
+                <!-- Mobile toggle button -->
+                <button class="background-transparent rounded text-2xl leading-none hover:text-pink-700 focus:text-pink-700 lg:hidden" type="button" data-toggle="offcanvas" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle bg-pink-500 rounded"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
+                    <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row gap-6">
+                        <li>
+                            <a class="nav-link page-scroll text-pink-700 font-semibold hover:text-pink-900 active" href="#home">Inicio <span class="sr-only">(actual)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll text-pink-700 font-semibold hover:text-pink-900" href="#services">Servicios</a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll text-pink-700 font-semibold hover:text-pink-900" href="#gallery">Galería</a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll text-pink-700 font-semibold hover:text-pink-900" href="#pricing">Precios</a>
+                        </li>
+                        <li>
+                            <a class="nav-link page-scroll text-pink-700 font-semibold hover:text-pink-900" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                    <span class="block lg:ml-6 flex items-center gap-4">
+                        <a class="no-underline text-pink-600 hover:text-pink-800 text-xl transition duration-200" href="#instagram" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="no-underline text-pink-600 hover:text-pink-800 text-xl transition duration-200" href="#facebook" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </span>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav>
+        <section  id="home" class="relative h-screen bg-[url('public/assets/bodegon-de-herramientas-para-nail-art.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-6 text-white font-[Poppins]">
+          
+          
+
+          <div class="relative z-10 max-w-4xl text-center space-y-6">
+            
+            <!-- Frase introductoria -->
+            <h2 class="text-[28px] sm:text-[36px] font-light tracking-wide leading-snug font-[Playfair_Display] animate-fade-in-up delay-1">
+              Belleza que empieza en tus manos
+            </h2>
+
+            <!-- Título -->
+            <h1 class="text-[42px] sm:text-[56px] font-bold mb-4 leading-tight font-[Playfair_Display] animate-fade-in-up delay-2 drop-shadow-lg">
+              Uñas que expresan tu estilo
+            </h1>
+
+            <!-- Frase de inspiración -->
+            <p class="max-w-md mx-auto text-base sm:text-lg text-white/90 leading-relaxed animate-fade-in-up delay-3">
+              “Cada estilo cuenta una historia. Cada detalle realza tu esencia.”
+            </p>
+
+            <!-- Botones -->
+            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4 animate-fade-in-up delay-3">
+              <a href="#contacto">
+                <button class="rounded-[4px] px-6 py-3 bg-gradient-to-r from-pink-300 to-pink-500 text-black font-semibold text-base shadow-md hover:scale-105 transition-transform duration-300">
+                  Reserva tu cita
+                </button>
+              </a>
+              <a href="#galeria">
+                <button class="rounded-[4px] px-6 py-3 border-2 border-white text-white font-semibold text-base hover:bg-white hover:text-black transition duration-300 hover:scale-105">
+                  Ver diseños
+                </button>
+              </a>
             </div>
-         </section>
+          </div>
+        </section>
+    
+        <!-- end of introduction -->
+
+
+        <!-- Features -->
+        <div id="features" class="cards-1">
+            <div class="container px-4 sm:px-8 xl:px-4">
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/features-icon-1.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Platform Integration</h5>
+                        <p class="mb-4">You sales force can use the app on any smartphone platform without compatibility issues</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/features-icon-2.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Easy On Resources</h5>
+                        <p class="mb-4">Works smoothly even on older generation hardware due to our optimization efforts</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/features-icon-3.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Great Performance</h5>
+                        <p class="mb-4">Optimized code and innovative technology insure no delays and ultra-fast responsiveness</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/features-icon-4.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Multiple Languages</h5>
+                        <p class="mb-4">Choose from one of the 40 languages that come pre-installed and start selling smarter</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/features-icon-5.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Free Updates</h5>
+                        <p class="mb-4">Don't worry about future costs, pay once and receive all future updates at no extra cost</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/features-icon-6.svg" alt="alternative" />
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Community Support</h5>
+                        <p class="mb-4">Register the app and get acces to knowledge and ideas from the Pavo online community</p>
+                    </div>
+                </div>
+                <!-- end of card -->
+
+            </div> <!-- end of container -->
+        </div> <!-- end of cards-1 -->
+        <!-- end of features -->
+
+
+        <!-- Details 1 -->
+        <div id="details" class="pt-12 pb-16 lg:pt-16">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+                <div class="lg:col-span-5">
+                    <div class="mb-16 lg:mb-0 xl:mt-16">
+                        <h2 class="mb-6">Results driven ground breaking technology</h2>
+                        <p class="mb-4">Based on our team's extensive experience in developing line of business applications and constructive customer feedback we reached a new level of revenue.</p>
+                        <p class="mb-4">We enjoy helping small and medium sized tech businesses take a shot at established Fortune 500 companies</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="lg:col-span-7">
+                    <div class="xl:ml-14">
+                        <img class="inline" src="images/details-1.jpg" alt="alternative" />
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of container -->
+        </div>
+        <!-- end of details 1 -->
+
+
+        <!-- Details 2 -->
+        <div class="py-24">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+                <div class="lg:col-span-7">
+                    <div class="mb-12 lg:mb-0 xl:mr-14">
+                        <img class="inline" src="images/details-2.jpg" alt="alternative" />
+                    </div>
+                </div> <!-- end of col -->
+                <div class="lg:col-span-5">
+                    <div class="xl:mt-12">
+                        <h2 class="mb-6">Instant results for the marketing department</h2>
+                        <ul class="list mb-7 space-y-2">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Features that will help you and your marketers</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Smooth learning curve due to the knowledge base</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Ready out-of-the-box with minor setup settings</div>
+                            </li>
+                        </ul>
+                        <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
+                        <a class="btn-outline-reg" href="article.html">Details</a>
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of container -->
+        </div>
+        <!-- end of details 2 -->
+
+
+        <!-- Details Lightbox -->
+        <!-- Lightbox -->
+        <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="lg:col-span-8">
+                    <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
+                        <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
+                    </div>
+                </div> <!-- end of col -->
+                <div class="lg:col-span-4">
+                    <h3 class="mb-2">Goals Setting</h3>
+                    <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
+                    <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
+                    <h4 class="mt-7 mb-2.5">User Feedback</h4>
+                    <p class="mb-4">This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
+                    <ul class="list mb-6 space-y-2">
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Splash screen panel</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Statistics graph report</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Events calendar layout</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Location details screen</div>
+                        </li>
+                        <li class="flex">
+                            <i class="fas fa-chevron-right"></i>
+                            <div>Onboarding steps interface</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#download">Download</a>
+                    <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of lightbox-basic -->
+        <!-- end of lightbox -->
+        <!-- end of details lightbox -->
+
+
+        <!-- Details 3 -->
+        <div class="pt-16 pb-12">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+                <div class="lg:col-span-5">
+                    <div class="mb-16 lg:mb-0 xl:mt-16">
+                        <h2 class="mb-6">Platform integration and life time free updates</h2>
+                        <p class="mb-4">Get a glimpse of what this app can do for your marketing automation and understand why current users are so excited when using Pavo
+                            together with their teams.</p>
+                        <p class="mb-4">We will promptly answer any questions and honor your requests based on the service level agreement</p>
+                    </div>
+                </div> <!-- end of col -->
+                <div class="lg:col-span-7">
+                    <div class="ml-14">
+                        <img class="inline" src="images/details-3.jpg" alt="alternative" />
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of container -->
+        </div>
+        <!-- end of details 3 -->
+
+
+        <!-- Statistics -->
+        <div class="counter">
+            <div class="container px-4 sm:px-8">
+                
+                <!-- Counter -->
+                <div id="counter">
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="231">1</div>
+                        <p class="counter-info">Happy Users</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="385">1</div>
+                        <p class="counter-info">Issues Solved</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="159">1</div>
+                        <p class="counter-info">Good Reviews</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="127">1</div>
+                        <p class="counter-info">Case Studies</p>
+                    </div>
+                    <div class="cell">
+                        <div class="counter-value number-count" data-count="211">1</div>
+                        <p class="counter-info">Orders Received</p>
+                    </div>
+                </div>
+                <!-- end of counter -->
+
+            </div> <!-- end of container -->
+        </div> <!-- end of counter -->
+        <!-- end of statistics -->
+
+
+        <!-- Testimonials -->
+        <div class="slider-1 py-32 bg-gray">
+            <div class="container px-4 sm:px-8">
+                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
+
+                <!-- Card Slider -->
+                <div class="slider-container">
+                    <div class="swiper-container card-slider">
+                        <div class="swiper-wrapper">
+                            
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-1.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="italic mb-3">It's been so fun to work with Pavo, I've managed to integrate it properly into my business flow and it's great</p>
+                                        <p class="testimonial-author">Jude Thorn - Designer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-2.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="italic mb-3">We were so focused on launching as many campaigns as possible that we've forgotten to target our loyal customers</p>
+                                        <p class="testimonial-author">Roy Smith - Developer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-3.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="italic mb-3">I've been searching for a tool like Pavo for so long. I love the reports it generates and the amazing high accuracy</p>
+                                        <p class="testimonial-author">Marsha Singer - Marketer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-4.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="italic mb-3">We've been waiting for a powerful piece of software that can help businesses manage their marketing projects</p>
+                                        <p class="testimonial-author">Tim Shaw - Designer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-5.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="italic mb-3">Searching for a great prototyping and layout design app was difficult but thankfully I found app suite quickly</p>
+                                        <p class="testimonial-author">Lindsay Spice - Marketer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                            <!-- Slide -->
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card-image" src="images/testimonial-6.jpg" alt="alternative" />
+                                    <div class="card-body">
+                                        <p class="italic mb-3">The app support team is amazing. They've helped me with some issues and I am so grateful to the entire team</p>
+                                        <p class="testimonial-author">Ann Blake - Developer</p>
+                                    </div>
+                                </div>
+                            </div> <!-- end of swiper-slide -->
+                            <!-- end of slide -->
+
+                        </div> <!-- end of swiper-wrapper -->
+
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <!-- end of add arrows -->
+
+                    </div> <!-- end of swiper-container -->
+                </div> <!-- end of slider-container -->
+                <!-- end of card slider -->
+
+            </div> <!-- end of container -->
+        </div> <!-- end of slider-1 -->
+        <!-- end of testimonials -->
+
+
+        <!-- Pricing -->
+        <div id="pricing" class="cards-2">
+            <div class="absolute bottom-0 h-40 w-full bg-white"></div>
+            <div class="container px-4 pb-px sm:px-8">
+                <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing options for all budgets</h2>
+                <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Our pricing plans are setup in such a way that any user can start enjoying Pavo without worrying so much about costs. They are flexible and work for any type of industry </p>
+
+                <!-- Card-->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">STANDARD</div>
+                        <div class="price"><span class="currency">$</span><span class="value">29</span></div>
+                        <div class="frequency">monthly</div>
+                        <p>This basic package covers the marketing needs of small startups</p>
+                        <ul class="list mb-7 space-y-2 text-left">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>List building and relations</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Seamless platform integration</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Great performance on devices</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Community support and videos</div>
+                            </li>
+                        </ul>
+                        <div class="button-wrapper">
+                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
+                        </div>
+                    </div>
+                </div> <!-- end of card -->
+                <!-- end of card -->
+
+                <!-- Card-->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">ADVANCED</div>
+                        <div class="price"><span class="currency">$</span><span class="value">39</span></div>
+                        <div class="frequency">monthly</div>
+                        <p>This is a more advanced package suited for medium companies</p>
+                        <ul class="list mb-7 space-y-2 text-left">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>List building and relations</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Seamless platform integration</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Great performance on devices</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Community support and videos</div>
+                            </li>
+                        </ul>
+                        <div class="button-wrapper">
+                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
+                        </div>
+                    </div>
+                </div> <!-- end of card -->
+                <!-- end of card -->
+
+                <!-- Card-->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title">COMPLETE</div>
+                        <div class="price"><span class="currency">$</span><span class="value">49</span></div>
+                        <div class="frequency">monthly</div>
+                        <p>This is a comprehensive package designed for big organizations</p>
+                        <ul class="list mb-7 text-left space-y-2">
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>List building and relations</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Seamless platform integration</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Great performance on devices</div>
+                            </li>
+                            <li class="flex">
+                                <i class="fas fa-chevron-right"></i>
+                                <div>Community support and videos</div>
+                            </li>
+                        </ul>
+                        <div class="button-wrapper">
+                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
+                        </div>
+                    </div>
+                </div> <!-- end of card -->
+                <!-- end of card -->
+
+            </div> <!-- end of container -->
+        </div> <!-- end of cards-2 -->
+        <!-- end of pricing -->
+
+        <!-- Contact -->
+<div class="bg-gradient-to-b from-pink-100 via-pink-200 to-pink-100 dark:from-pink-900 dark:via-pink-800 dark:to-pink-900" id="booking">
+  <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 pt-20 text-center">
+    <h2 class="text-4xl font-extrabold text-pink-800 dark:text-pink-300 drop-shadow-sm">Reserva tu Cita</h2>
+    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-900 dark:text-gray-300 font-light tracking-wide">
+      Agenda tu tratamiento de belleza o uñas con nosotros. Llena el formulario y te confirmaremos tu cita rápidamente.
+    </p>
+  </div>
+  <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 grid md:grid-cols-2 gap-12">
+    <div class="space-y-8">
+      <h3 class="text-2xl font-semibold text-pink-800 dark:text-pink-300 drop-shadow-sm">Información de Contacto</h3>
+      <p class="text-gray-900 dark:text-gray-300 leading-relaxed">
+        ¿Tienes alguna consulta? Contáctanos por teléfono, correo o visítanos en nuestro salón y descubre el mejor cuidado para ti.
+      </p>
+      <div class="flex items-center space-x-3 text-pink-800 dark:text-pink-400">
+        <!-- Iconos y texto -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-pink-700" fill="none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="..."/>
+        </svg>
+        <span class="text-lg font-medium">Calle Belleza 123, Ciudad Glam</span>
       </div>
-   </main>
-  </body>
+      <div class="flex items-center space-x-3 text-pink-800 dark:text-pink-400">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-pink-700" fill="none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="..."/>
+        </svg>
+        <a href="mailto:reservas@glamnails.com" class="text-lg font-medium hover:underline focus:underline text-gray-900 dark:text-gray-300">reservas@glamnails.com</a>
+      </div>
+      <div class="flex items-center space-x-3 text-pink-800 dark:text-pink-400">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-pink-700" fill="none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="..."/>
+        </svg>
+        <a href="tel:+51987654321" class="text-lg font-medium hover:underline focus:underline text-gray-900 dark:text-gray-300">+51 987 654 321</a>
+      </div>
+    </div>
+    <div>
+      <form class="bg-white dark:bg-pink-900 p-8 rounded-3xl shadow-lg border border-pink-200 dark:border-pink-700">
+        <input type="checkbox" id="" class="hidden" style="display:none" name="botcheck" />
+        <div class="mb-6">
+          <input type="text" placeholder="Nombre Completo" autocomplete="off" required
+            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="name" />
+        </div>
+        <div class="mb-6">
+          <input type="email" placeholder="Correo Electrónico" autocomplete="off" required
+            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="email" />
+        </div>
+        <div class="mb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <input type="date" required
+            class="px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="date" />
+          <input type="time" required
+            class="px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="time" />
+        </div>
+        <div class="mb-6">
+          <select required
+            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition"
+            name="service">
+            <option value="" disabled selected>Selecciona el Servicio</option>
+            <option value="manicure">Manicure</option>
+            <option value="pedicure">Pedicure</option>
+            <option value="gel_nails">Uñas de Gel</option>
+            <option value="facial">Tratamiento Facial</option>
+          </select>
+        </div>
+        <div class="mb-6">
+          <textarea placeholder="Comentarios adicionales (opcional)"
+            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 resize-none h-28 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition"
+            name="notes"></textarea>
+        </div>
+        <button type="submit"
+          class="w-full py-4 font-semibold text-white bg-pink-600 rounded-xl hover:bg-pink-700 active:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition">
+          Reservar Cita
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+        
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container px-4 sm:px-8">
+                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">Pavo is a mobile application for marketing automation and you can reach the team at <a class="text-indigo-600 hover:text-gray-500" href="mailto:email@domain.com">email@domain.com</a></h4>
+                <div class="social-container">
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
+                        </a>
+                    </span>
+                    <span class="fa-stack">
+                        <a href="#your-link">
+                            <i class="fas fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x"></i>
+                        </a>
+                    </span>
+                </div> <!-- end of social-container -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->
+        <!-- end of footer -->
+        
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
+                <ul class="mb-4 list-unstyled p-small">
+                    <li class="mb-2"><a href="article.html">Article Details</a></li>
+                    <li class="mb-2"><a href="terms.html">Terms & Conditions</a></li>
+                    <li class="mb-2"><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+                <p class="pb-2 p-small statement">Copyright © <a href="#your-link" class="no-underline">Your name</a></p>
+
+                <p class="pb-2 p-small statement">Distributed by :<a href="https://themewagon.com/" class="no-underline">Themewagon</a></p>
+            </div> 
+
+        <!-- end of container -->
+        </div> <!-- end of copyright -->
+        <!-- end of copyright -->
+
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script> <!-- jQuery for JavaScript plugins -->
+        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    </body>
 </html>
