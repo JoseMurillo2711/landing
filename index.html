@@ -16,17 +16,19 @@
         <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
         <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
         <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
+        <link rel="icon" href="public/assets/logo.png"/>
 
         <!-- Webpage Title -->
-        <title>Pavo Webpage Title</title>
+        <title>Jenny Studio</title>
 
         <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
         <link href="css/fontawesome-all.css" rel="stylesheet" />
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
         <link href="css/swiper.css" rel="stylesheet" />
-        <!-- <link href="css/magnific-popup.css" rel="stylesheet" /> -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css">
         <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
 
@@ -37,8 +39,7 @@
         <!-- Favicon  -->
         <link rel="icon" href="images/favicon.png"/>
     </head>
-    <body data-spy="scroll" data-target=".fixed-top">
-
+    <body data-spy="scroll" data-target=".fixed-top" class="bg-gradient-to-b from-pink-200 via-rose-300 to-orange-100">
         <nav class="navbar fixed-top bg-pink-100 shadow-md backdrop-blur-lg z-50">
             <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
                 
@@ -70,62 +71,52 @@
                             <a class="nav-link page-scroll text-pink-700 font-semibold hover:text-pink-900" href="#booking">Contacto</a>
                         </li>
                     </ul>
-                    <span class="block lg:ml-6 flex items-center gap-4">
-                        <a class="no-underline text-pink-600 hover:text-pink-800 text-xl transition duration-200" href="#instagram" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="no-underline text-pink-600 hover:text-pink-800 text-xl transition duration-200" href="#facebook" aria-label="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </span>
                 </div> <!-- end of navbar-collapse -->
             </div> <!-- end of container -->
         </nav>
-        <section  id="home" class="relative h-screen bg-[url('public/assets/bodegon-de-herramientas-para-nail-art.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-6 text-white font-[Poppins]">
+        <section id="home" class="relative h-screen bg-[url('public/assets/bodegon-de-herramientas-para-nail-art.jpg')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-6 text-white font-[Lora] opacity-75">
+            <div class="relative z-10 max-w-4xl w-full text-center space-y-6 bg-white/10 backdrop-blur-md rounded-3xl p-8 sm:p-16 lg:p-24 xl:p-32 shadow-xl">
 
-          <div class="relative z-10 max-w-4xl text-center space-y-6">
-            
-            <!-- Frase introductoria -->
-            <h2 class="text-[28px] sm:text-[36px] font-light tracking-wide leading-snug font-[Playfair_Display] animate-fade-in-up delay-1">
-              Tu belleza, nuestro arte
-            </h2>
+                <!-- Frase introductoria -->
+                <h2 class="text-xl sm:text-2xl lg:text-3xl font-light tracking-wide italic animate-fade-in-up">
+                Tu belleza, nuestro arte
+                </h2>
 
-            <!-- Título -->
-            <h1 class="text-[42px] sm:text-[56px] font-bold mb-4 leading-tight font-[Playfair_Display] animate-fade-in-up delay-2 drop-shadow-lg">
-              Deja que el cuidado que mereces hable por ti
-            </h1>
+                <!-- Título principal -->
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl text-rose-500 xl:text-7xl font-semibold italic leading-tight drop-shadow-xl animate-fade-in-up">
+                Jenny Beauty Estudio
+                </h1>
 
-            <!-- Frase de inspiración -->
-            <p class="max-w-md mx-auto text-base sm:text-lg text-white/90 leading-relaxed animate-fade-in-up delay-3">
-              “Un estilo pensado para ti. Un espacio creado para cuidarte.”
-            </p>
+                <!-- Frase de inspiración -->
+                <p class="max-w-xl mx-auto text-base sm:text-lg lg:text-xl font-extrabold italic leading-relaxed animate-fade-in-up">
+                “Deja que el cuidado que mereces hable por ti”
+                </p>
 
-            <!-- Botones -->
-            <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4 animate-fade-in-up delay-3">
-              <a href="#booking">
-                <button class="rounded-[4px] px-6 py-3 bg-gradient-to-r from-pink-300 to-pink-500 text-black font-semibold text-base shadow-md hover:scale-105 transition-transform duration-300">
-                  Reserva tu cita
-                </button>
-              </a>
-              <a href="#gallery">
-                <button class="rounded-[4px] px-6 py-3 border-2 border-white text-white font-semibold text-base hover:bg-white hover:text-black transition duration-300 hover:scale-105">
-                  Ver diseños
-                </button>
-              </a>
+                <!-- Botones -->
+                <div class="flex flex-col sm:flex-row justify-center gap-4 pt-4 animate-fade-in-up">
+                <a href="#booking">
+                    <button class="rounded-full px-6 py-3 bg-gradient-to-r from-pink-300 to-rose-300 text-black font-semibold text-base shadow-md hover:scale-105 transition-transform duration-300">
+                    Reserva tu cita
+                    </button>
+                </a>
+                <a href="#gallery">
+                    <button class="rounded-full px-6 py-3 border-2 border-white text-white font-semibold text-base hover:bg-white hover:text-pink-700 transition duration-300 hover:scale-105">
+                    Ver diseños
+                    </button>
+                </a>
+                </div>
+
             </div>
-          </div>
         </section>
-    
-        <!-- end of introduction -->
-
-
         <!-- Features -->
         <div id="features" class="cards-1">
-            <div class="container px-4 sm:px-8 xl:px-4">
-
+            <div class="container px-4 sm:px-8 xl:px-4" id="services">
+                <h2 class="text-4xl sm:text-5xl font-bold text-pink-700 font-[Lora] italic drop-shadow-sm mb-10">
+                    Servicios Destacados
+                </h2>
                 <!-- Card -->
-                <div class="card">
-                    <div class="card-image">
+                <div class="card bg-gradient-to-br from-pink-300 to-slate-300">
+                    <div class="card-image ">
                         <img src="public/assets/card/nail.png" alt="alternative" />
                     </div>
                     <div class="card-body">
@@ -136,7 +127,7 @@
                 <!-- end of card -->
 
                 <!-- Card -->
-                <div class="card">
+                <div class="card bg-gradient-to-br from-pink-300 to-slate-300">
                     <div class="card-image">
                         <img src="public/assets/card/trim.png" alt="alternative" />
                     </div>
@@ -148,7 +139,7 @@
                 <!-- end of card -->
 
                 <!-- Card -->
-                <div class="card">
+                <div class="card bg-gradient-to-br from-pink-300 to-slate-300">
                     <div class="card-image">
                         <img src="public/assets/card/hair_dye.png" alt="alternative" />
                     </div>
@@ -162,80 +153,90 @@
         </div> <!-- end of cards-1 -->
         <!-- end of features -->
 
-
         <!-- Details 1 -->
-        <div id="details" class="pt-12 pb-16 lg:pt-16">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-30">
-                        <h2 class="mb-6">Resultados visibles que te harán brillar</h2>
-                        <p class="mb-4">Gracias a nuestra experiencia en estética, cuidado personal y últimas tendencias en belleza, ofrecemos resultados que resaltan tu estilo único.</p>
-                        <p class="mb-4">Disfruta de servicios integrales para uñas, piel, rostro y cabello, todo en un solo lugar pensado para ti.</p>
-                    </div>
-                </div> 
-                <div class="lg:col-span-7">
-                    <div class="xl:ml-14">
-                        <img class="inline" src="public/assets/detail/detail_2.jpeg" alt="alternative" />
-                    </div>
-                </div> 
-            </div> 
-        </div>
-        
+        <div class="bg-transparent py-20">
+        <div class="container mx-auto px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12 items-center">
+            
+            <!-- Texto -->
+            <div class="lg:col-span-5">
+            <div class="mb-16 lg:mb-0">
+                <h2 class="text-3xl sm:text-4xl font-bold text-pink-700 mb-6 font-[Lora]">
+                Resultados visibles que te harán brillar
+                </h2>
+                <p class="text-gray-700 mb-4 leading-relaxed">
+                Gracias a nuestra experiencia en estética, cuidado personal y últimas tendencias en belleza, ofrecemos resultados que resaltan tu estilo único.
+                </p>
+                <p class="text-gray-700 mb-4 leading-relaxed">
+                Disfruta de servicios integrales para uñas, piel, rostro y cabello, todo en un solo lugar pensado para ti.
+                </p>
+            </div>
+            </div>
 
+            <!-- Imagen -->
+            <div class="lg:col-span-7">
+            <img class="w-full rounded-3xl shadow-lg" src="public/assets/detail/detail_2.jpeg" alt="alternativa" />
+            </div>
+        </div>
+        </div>
 
         <!-- Details 2 -->
-        <div class="py-24">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-7">
-                    <div class="mb-12 lg:mb-0 xl:mr-14">
-                        <img class="inline" src="public/assets/detail/detail_1.jpeg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-5">
-                    <div class="xl:mt-0">
-                        <h2 class="mb-6">Belleza instantánea con un toque profesional</h2>
-                        <ul class="list mb-7 space-y-2">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Atención cálida y personalizada</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Técnicas modernas y productos de alta calidad</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Servicios pensados para realzar tu esencia sin complicaciones</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
-        </div>
-        <!-- end of details 2 -->
+        <div class="bg-gradient-to-br from-pink-200 to-slate-300 py-20">
+        <div class="container mx-auto px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12 items-center">
 
+            <!-- Imagen -->
+            <div class="lg:col-span-7 mb-10 lg:mb-0">
+            <img class="w-full rounded-3xl shadow-lg" src="public/assets/detail/detail_1.jpeg" alt="alternativa" />
+            </div>
+
+            <!-- Texto -->
+            <div class="lg:col-span-5">
+            <h2 class="text-3xl sm:text-4xl font-bold text-pink-700 mb-6 font-[Lora]">
+                Belleza instantánea con un toque profesional
+            </h2>
+            <ul class="text-gray-700 space-y-4 pl-2">
+                <li class="flex gap-2">
+                <span class="text-pink-600 mt-1"><i class="fas fa-chevron-right"></i></span>
+                <p>Atención cálida y personalizada</p>
+                </li>
+                <li class="flex gap-2">
+                <span class="text-pink-600 mt-1"><i class="fas fa-chevron-right"></i></span>
+                <p>Técnicas modernas y productos de alta calidad</p>
+                </li>
+                <li class="flex gap-2">
+                <span class="text-pink-600 mt-1"><i class="fas fa-chevron-right"></i></span>
+                <p>Servicios pensados para realzar tu esencia sin complicaciones</p>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
 
         <!-- Details 3 -->
-        <div class="pt-16 pb-12">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-16">
-                        <h2 class="mb-6">Productos profesionales, resultados excepcionales</h2>
-                        <p class="mb-4">Trabajamos con marcas reconocidas a nivel mundial como Chardon®, utilizadas por los mejores estilistas y salones de belleza. 
-                            Porque tu piel, cabello y uñas merecen lo mejor, usamos solo productos de calidad superior que cuidan y realzan tu belleza natural.</p>
-                        <p class="mb-4">Resultados duraderos y acabados profesionales</p>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-7">
-                    <div class="ml-14">
-                        <img class="inline" src="public/assets/detail/detail_3.jpeg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
+        <div class="bg-transparent py-20">
+  <div class="container mx-auto px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12 items-center">
+
+    <!-- Texto -->
+    <div class="lg:col-span-5">
+      <div class="mb-16 lg:mb-0">
+        <h2 class="text-3xl sm:text-4xl font-bold text-pink-700 mb-6 font-[Lora]">
+          Productos profesionales, resultados excepcionales
+        </h2>
+        <p class="text-gray-700 mb-4 leading-relaxed">
+          Trabajamos con marcas reconocidas a nivel mundial como Chardon®, utilizadas por los mejores estilistas y salones de belleza.
+        </p>
+        <p class="text-gray-700 mb-4 leading-relaxed">
+          Porque tu piel, cabello y uñas merecen lo mejor, usamos solo productos de calidad superior que cuidan y realzan tu belleza natural.
+        </p>
+        <p class="text-gray-700 leading-relaxed">Resultados duraderos y acabados profesionales.</p>
+      </div>
+    </div>
+
+    <!-- Imagen -->
+    <div class="lg:col-span-7">
+      <img class="w-full rounded-3xl shadow-lg" src="public/assets/detail/detail_3.jpeg" alt="alternativa" />
+    </div>
+  </div>
         </div>
-        <!-- end of details 3 -->
-
-
         <!-- Statistics -->
         <div class="counter">
             <div class="container px-4 sm:px-8">
@@ -244,389 +245,263 @@
                 <div id="counter">
                     <div class="cell">
                         <div class="counter-value number-count" data-count="231">1</div>
-                        <p class="counter-info">Happy Users</p>
+                        <p class="counter-info">Clientes Felices</p>
                     </div>
                     <div class="cell">
                         <div class="counter-value number-count" data-count="385">1</div>
-                        <p class="counter-info">Issues Solved</p>
-                    </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="159">1</div>
-                        <p class="counter-info">Good Reviews</p>
-                    </div>
-                    <div class="cell">
-                        <div class="counter-value number-count" data-count="127">1</div>
-                        <p class="counter-info">Case Studies</p>
+                        <p class="counter-info">Buenos Comentarios</p>
                     </div>
                     <div class="cell">
                         <div class="counter-value number-count" data-count="211">1</div>
-                        <p class="counter-info">Orders Received</p>
+                        <p class="counter-info">Ordenes Recibidas</p>
                     </div>
                 </div>
                 <!-- end of counter -->
 
             </div> <!-- end of container -->
-        </div> <!-- end of counter -->
-        <!-- end of statistics -->
+        </div>
+        <!-- Galería -->
+        <div id="gallery" class=" bg-gradient-to-br from-pink-200 to-slate-300 py-40">
+        <div class="container mx-auto px-6 sm:px-8 lg:px-16">
 
-        <div id="gallery" class="py-16 bg-white">
-            <div class="container mx-auto px-6 sm:px-8 lg:px-16">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl sm:text-4xl font-bold text-pink-700 mb-4">Galería de Diseños</h2>
-                    <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
-                        Inspírate con algunos de nuestros trabajos recientes. Haz clic para ver en grande.
-                    </p>
+            <!-- Encabezado -->
+            <div class="text-center mb-12">
+            <h2 class="text-4xl sm:text-5xl font-bold text-pink-700 font-[Lora] italic drop-shadow-sm">
+                Galería de Diseños
+            </h2>
+            <p class="text-lg sm:text-xl text-gray-700 mt-4 max-w-2xl mx-auto font-light">
+                Inspírate con nuestros trabajos recientes. Haz clic para ver en grande.
+            </p>
+            </div>
+
+            <!-- Imágenes -->
+            <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            </div>
+
+        </div>
+        </div>
+        
+        <div class="slider-1 py-32">
+            <div class="container px-4 sm:px-8">
+                <h2 class="mb-12 text-center text-3xl sm:text-4xl font-bold text-rose-500 font-[Lora]">Lo que dicen nuestras clientas</h2>
+
+                <!-- Card Slider -->
+                <div class="slider-container">
+                <div class="swiper-container card-slider">
+                    <div class="swiper-wrapper">
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="card bg-white rounded-xl shadow-md p-6 text-center">
+                        <img class="mx-auto mb-4 w-20 h-20 rounded-full object-cover" src="https://i.pravatar.cc/100?img=47" alt="cliente-1" />
+                        <p class="italic mb-3 text-gray-700">"¡Simplemente encantada! Las uñas quedaron perfectas y el trato fue súper profesional. Definitivamente volveré."</p>
+                        <p class="font-semibold text-rose-500">Ana María - Manicure Spa</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="card bg-white rounded-xl shadow-md p-6 text-center">
+                        <img class="mx-auto mb-4 w-20 h-20 rounded-full object-cover" src="https://i.pravatar.cc/100?img=48" alt="cliente-2" />
+                        <p class="italic mb-3 text-gray-700">"Me encantó el ambiente y el resultado del tinte. ¡Mi cabello nunca había lucido tan saludable!"</p>
+                        <p class="font-semibold text-rose-500">Daniela Ríos - Tinte & Peinado</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="card bg-white rounded-xl shadow-md p-6 text-center">
+                        <img class="mx-auto mb-4 w-20 h-20 rounded-full object-cover" src="https://i.pravatar.cc/100?img=49" alt="cliente-3" />
+                        <p class="italic mb-3 text-gray-700">"Excelente atención y muy puntuales. Me sentí como en casa y el diseño de uñas quedó hermoso."</p>
+                        <p class="font-semibold text-rose-500">Lorena Vargas - Diseño personalizado</p>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <!-- Flechas de navegación -->
+                    <div class="swiper-button-next text-rose-500"></div>
+                    <div class="swiper-button-prev text-rose-500"></div>
+
                 </div>
-                <div id="gallery-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-                <!-- Aquí se inyectan automáticamente 6 <a><img> -->
                 </div>
             </div>
         </div>
 
 
-        <!-- Testimonials -->
-        <div class="slider-1 py-32 bg-gray">
-            <div class="container px-4 sm:px-8">
-                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">What do users think about Pavo</h2>
-
-                <!-- Card Slider -->
-                <div class="slider-container">
-                    <div class="swiper-container card-slider">
-                        <div class="swiper-wrapper">
-                            
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-1.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">It's been so fun to work with Pavo, I've managed to integrate it properly into my business flow and it's great</p>
-                                        <p class="testimonial-author">Jude Thorn - Designer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-2.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">We were so focused on launching as many campaigns as possible that we've forgotten to target our loyal customers</p>
-                                        <p class="testimonial-author">Roy Smith - Developer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-3.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">I've been searching for a tool like Pavo for so long. I love the reports it generates and the amazing high accuracy</p>
-                                        <p class="testimonial-author">Marsha Singer - Marketer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-4.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">We've been waiting for a powerful piece of software that can help businesses manage their marketing projects</p>
-                                        <p class="testimonial-author">Tim Shaw - Designer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-5.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">Searching for a great prototyping and layout design app was difficult but thankfully I found app suite quickly</p>
-                                        <p class="testimonial-author">Lindsay Spice - Marketer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonial-6.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">The app support team is amazing. They've helped me with some issues and I am so grateful to the entire team</p>
-                                        <p class="testimonial-author">Ann Blake - Developer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                        </div> <!-- end of swiper-wrapper -->
-
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <!-- end of add arrows -->
-
-                    </div> <!-- end of swiper-container -->
-                </div> <!-- end of slider-container -->
-                <!-- end of card slider -->
-
-            </div> <!-- end of container -->
-        </div> <!-- end of slider-1 -->
-        <!-- end of testimonials -->
-
-
-        <!-- Pricing -->
         <div id="pricing" class="cards-2">
-            <div class="absolute bottom-0 h-40 w-full bg-white"></div>
-            <div class="container px-4 pb-px sm:px-8">
-                <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing options for all budgets</h2>
-                <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Our pricing plans are setup in such a way that any user can start enjoying Pavo without worrying so much about costs. They are flexible and work for any type of industry </p>
 
-                <!-- Card-->
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">STANDARD</div>
-                        <div class="price"><span class="currency">$</span><span class="value">29</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This basic package covers the marketing needs of small startups</p>
-                        <ul class="list mb-7 space-y-2 text-left">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li>
+            <div class="absolute bottom-0 h-40 w-full bg-transparent"></div>
+            <div class="container px-4 pb-px sm:px-8">   
+                <h2 class="text-4xl sm:text-5xl font-bold text-rose-500 font-[Lora] italic drop-shadow-sm mb-8">
+                    Nuestros Servicios y Precios
+                </h2>
+                <p class="mb-16 text-slate-700 font-extrabold lg:max-w-3xl lg:mx-auto font-[Poppins] text-lg leading-relaxed">
+                En Jenny Beauty Estudio ofrecemos una variedad de servicios profesionales de manicura y pedicura. Cada plan ha sido diseñado para brindarte belleza, relajación y cuidado personalizado.
+                </p>
+                <div class="card bg-pink-50 rounded-3xl p-6 shadow-md border border-pink-100">
+                    <div class="card-body space-y-4 text-center">
+                        <h3 class="card-title text-xl font-semibold text-rose-600">BÁSICO</h3>
+                        <div class="price text-4xl font-bold text-rose-500">$15</div>
+                        <div class="frequency text-sm text-rose-400 mb-2">por sesión</div>
+                        <p class="text-sm">Ideal para quienes buscan un cuidado práctico y rápido para sus uñas.</p>
+                        <ul class="text-left space-y-2 text-sm">
+                            <li class="flex gap-2"><i class="fas fa-chevron-right text-rose-400"></i><span>Limpieza y corte de uñas</span></li>
+                            <li class="flex gap-2"><i class="fas fa-chevron-right text-rose-400"></i><span>Esmaltado tradicional</span></li>
+                            <li class="flex gap-2"><i class="fas fa-chevron-right text-rose-400"></i><span>Hidratación básica</span></li>
                         </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                        </div>
+                        <a href="#booking" class="inline-block mt-4 px-6 py-3 rounded-full bg-pink-200 text-pink-900 font-semibold hover:bg-pink-300 transition duration-300">Reservar</a>
                     </div>
-                </div> <!-- end of card -->
-                <!-- end of card -->
+                </div>
 
-                <!-- Card-->
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">ADVANCED</div>
-                        <div class="price"><span class="currency">$</span><span class="value">39</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This is a more advanced package suited for medium companies</p>
-                        <ul class="list mb-7 space-y-2 text-left">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li>
-                        </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                        </div>
+                <div class="card bg-gradient-to-br from-pink-300 to-slate-300 rounded-3xl p-6 shadow-lg border border-rose-100 scale-105">
+                    <div class="card-body space-y-4 text-center">
+                    <h3 class="card-title text-xl font-semibold text-rose-600">DELUXE</h3>
+                    <div class="price text-4xl font-bold text-rose-500">$25</div>
+                    <div class="frequency text-sm text-rose-400 mb-2">por sesión</div>
+                    <p class="text-sm">Perfecto para quienes desean un acabado más profesional y duradero.</p>
+                    <ul class="text-left space-y-2 text-sm">
+                        <li class="flex gap-2"><span>Manicure o pedicure spa</span></li>
+                        <li class="flex gap-2"><span>Esmaltado en gel</span></li>
+                        <li class="flex gap-2"><span>Masaje relajante</span></li>
+                    </ul>
+                        <a href="#booking" class="inline-block mt-4 px-6 py-3 rounded-full bg-red-300 text-pink-900 font-semibold hover:bg-pink-400 transition duration-300">Reservar</a>
                     </div>
-                </div> <!-- end of card -->
-                <!-- end of card -->
+                </div>
 
-                <!-- Card-->
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-title">COMPLETE</div>
-                        <div class="price"><span class="currency">$</span><span class="value">49</span></div>
-                        <div class="frequency">monthly</div>
-                        <p>This is a comprehensive package designed for big organizations</p>
-                        <ul class="list mb-7 text-left space-y-2">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>List building and relations</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Seamless platform integration</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Great performance on devices</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Community support and videos</div>
-                            </li>
-                        </ul>
-                        <div class="button-wrapper">
-                            <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                        </div>
+                <div class="card bg-orange-50 rounded-3xl p-6 shadow-md border border-orange-100">
+                    <div class="card-body space-y-4 text-center">
+                    <h3 class="card-title text-xl font-semibold text-rose-600">PREMIUM</h3>
+                    <div class="price text-4xl font-bold text-rose-500">$35</div>
+                    <div class="frequency text-sm text-rose-400 mb-2">por sesión</div>
+                    <p class="text-sm">Para quienes quieren un diseño completo, personalizado y glamoroso.</p>
+                    <ul class="text-left space-y-2 text-sm">
+                        <li class="flex gap-2"><span>Esculpido de uñas (acrílico o gel)</span></li>
+                        <li class="flex gap-2"><span>Nail art personalizado</span></li>
+                        <li class="flex gap-2"><span>Tratamiento intensivo</span></li>
+                    </ul>
+                    <a href="#booking" class="inline-block mt-4 px-6 py-3 rounded-full bg-rose-200 font-semibold hover:bg-rose-300 transition duration-300">Reservar</a>
                     </div>
-                </div> <!-- end of card -->
-                <!-- end of card -->
+                </div>
+             </div> <!-- end container -->
+        </div> <!-- end pricing -->
 
-            </div> <!-- end of container -->
-        </div> <!-- end of cards-2 -->
-        <!-- end of pricing -->
 
         <!-- Contact -->
-<div class="bg-gradient-to-b from-pink-100 via-pink-200 to-pink-100 dark:from-pink-900 dark:via-pink-800 dark:to-pink-900" id="booking">
-  <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 pt-20 text-center">
-    <h2 class="text-4xl font-extrabold text-pink-800 dark:text-pink-300 drop-shadow-sm">Reserva tu Cita</h2>
-    <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-900 dark:text-gray-300 font-light tracking-wide">
-      Agenda tu tratamiento de belleza o uñas con nosotros. Llena el formulario y te confirmaremos tu cita rápidamente.
-    </p>
-  </div>
-  <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 grid md:grid-cols-2 gap-12">
+        <div class=" " id="booking">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 pt-20 text-center">
+            <h2 class="text-4xl sm:text-5xl font-bold text-pink-700 font-[Lora] italic drop-shadow-sm mb-8">
+                Reserva tu Cita
+            </h2>
+            <p class="mt-6 max-w-3xl mx-auto text-lg text-gray-700 dark:text-gray-300 font-light leading-relaxed tracking-wide">
+            Agenda tu tratamiento de belleza o uñas con nosotros. Llena el formulario y te confirmaremos tu cita rápidamente.
+            </p>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-20 grid md:grid-cols-2 gap-12 items-start">
+    <!-- Información de contacto -->
     <div class="space-y-8">
-      <h3 class="text-2xl font-semibold text-pink-800 dark:text-pink-300 drop-shadow-sm">Información de Contacto</h3>
-      <p class="text-gray-900 dark:text-gray-300 leading-relaxed">
+      <h3 class="text-2xl font-semibold text-pink-700 dark:text-pink-200">Información de Contacto</h3>
+      <p class="text-gray-800 dark:text-gray-300 font-light leading-relaxed">
         ¿Tienes alguna consulta? Contáctanos por teléfono, correo o visítanos en nuestro salón y descubre el mejor cuidado para ti.
       </p>
-      <div class="flex items-center space-x-3 text-pink-800 dark:text-pink-400">
-        <!-- Iconos y texto -->
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-pink-700" fill="none" viewBox="0 0 24 24" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="..."/>
+
+      <div class="flex items-center gap-3 text-pink-700 dark:text-pink-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="..." />
         </svg>
-        <span class="text-lg font-medium">Calle Belleza 123, Ciudad Glam</span>
+        <span class="text-lg">Calle Belleza 123, Ciudad Glam</span>
       </div>
-      <div class="flex items-center space-x-3 text-pink-800 dark:text-pink-400">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-pink-700" fill="none" viewBox="0 0 24 24" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="..."/>
+
+      <div class="flex items-center gap-3 text-pink-700 dark:text-pink-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="..." />
         </svg>
-        <a href="mailto:reservas@glamnails.com" class="text-lg font-medium hover:underline focus:underline text-gray-900 dark:text-gray-300">reservas@glamnails.com</a>
+        <a href="mailto:reservas@glamnails.com" class="text-lg hover:underline">contacto@jennybeauty.com</a>
       </div>
-      <div class="flex items-center space-x-3 text-pink-800 dark:text-pink-400">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-pink-700" fill="none" viewBox="0 0 24 24" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="..."/>
+
+      <div class="flex items-center gap-3 text-pink-700 dark:text-pink-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 stroke-current" fill="none" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="..." />
         </svg>
-        <a href="tel:+51987654321" class="text-lg font-medium hover:underline focus:underline text-gray-900 dark:text-gray-300">+51 987 654 321</a>
+        <a href="tel:+51987654321" class="text-lg hover:underline">+51 987 654 321</a>
       </div>
     </div>
-    <div>
-      <form class="bg-white dark:bg-pink-900 p-8 rounded-3xl shadow-lg border border-pink-200 dark:border-pink-700">
-        <input type="checkbox" id="" class="hidden" style="display:none" name="botcheck" />
-        <div class="mb-6">
-          <input type="text" placeholder="Nombre Completo" autocomplete="off" required
-            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="name" />
-        </div>
-        <div class="mb-6">
-          <input type="email" placeholder="Correo Electrónico" autocomplete="off" required
-            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="email" />
-        </div>
-        <div class="mb-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <input type="date" required
-            class="px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="date" />
-          <input type="time" required
-            class="px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition" name="time" />
-        </div>
-        <div class="mb-6">
-          <select required
-            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition"
-            name="service">
-            <option value="" disabled selected>Selecciona el Servicio</option>
-            <option value="manicure">Manicure</option>
-            <option value="pedicure">Pedicure</option>
-            <option value="gel_nails">Uñas de Gel</option>
-            <option value="facial">Tratamiento Facial</option>
-          </select>
-        </div>
-        <div class="mb-6">
-          <textarea placeholder="Comentarios adicionales (opcional)"
-            class="w-full px-5 py-4 border-2 border-pink-300 rounded-xl placeholder-pink-400 text-gray-900 dark:text-pink-100 dark:bg-pink-800 resize-none h-28 focus:outline-none focus:ring-4 focus:ring-pink-300 focus:border-pink-400 transition"
-            name="notes"></textarea>
-        </div>
-        <button type="submit"
-          class="w-full py-4 font-semibold text-white bg-pink-600 rounded-xl hover:bg-pink-700 active:bg-pink-800 focus:outline-none focus:ring-4 focus:ring-pink-300 transition">
-          Reservar Cita
-        </button>
-      </form>
-    </div>
+
+    <!-- Formulario -->
+        <form class="bg-pink-50 p-8 rounded-3xl shadow-xl border border-pink-100 space-y-6 font-[Lora]">
+
+  <input type="checkbox" class="hidden" name="botcheck" />
+
+  <input type="text" placeholder="Nombre Completo" required
+    class="w-full px-5 py-4 rounded-2xl border border-pink-200 placeholder-pink-400 text-pink-900 bg-pink-100 focus:ring-2 focus:ring-pink-300 focus:border-pink-300 transition" />
+
+  <input type="email" placeholder="Correo Electrónico" required
+    class="w-full px-5 py-4 rounded-2xl border border-pink-200 placeholder-pink-400 text-pink-900 bg-pink-100 focus:ring-2 focus:ring-pink-300 focus:border-pink-300 transition" />
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <input type="date" required
+      class="w-full px-5 py-4 rounded-2xl border border-orange-200 text-pink-900 bg-orange-100 focus:ring-2 focus:ring-orange-300 focus:border-orange-300 transition" />
+    <input type="time" required
+      class="w-full px-5 py-4 rounded-2xl border border-orange-200 text-pink-900 bg-orange-100 focus:ring-2 focus:ring-orange-300 focus:border-orange-300 transition" />
   </div>
-</div>
 
+  <select required
+    class="w-full px-5 py-4 rounded-2xl border border-violet-200 text-pink-900 bg-violet-100 focus:ring-2 focus:ring-violet-300 focus:border-violet-300 transition">
+    <option value="" disabled selected>Selecciona el Servicio</option>
+    <option value="manicure">Manicure</option>
+    <option value="pedicure">Pedicure</option>
+    <option value="gel_nails">Uñas de Gel</option>
+    <option value="facial">Tratamiento Facial</option>
+  </select>
 
-        
+  <textarea placeholder="Comentarios adicionales (opcional)" rows="4"
+    class="w-full px-5 py-4 rounded-2xl border border-pink-200 text-pink-900 bg-pink-100 placeholder-pink-400 resize-none focus:ring-2 focus:ring-pink-300 focus:border-pink-300 transition"></textarea>
 
+  <button type="submit"
+    class="w-full py-4 font-semibold text-white bg-gradient-to-r from-pink-300 via-rose-300 to-slate-400 hover:brightness-110 active:scale-95 rounded-2xl focus:ring-4 focus:ring-pink-200 transition">
+    Reservar Cita
+  </button>
+</form>
 
-        <!-- Footer -->
+        </div>
+
         <div class="footer">
-            <div class="container px-4 sm:px-8">
-                <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">Pavo is a mobile application for marketing automation and you can reach the team at <a class="text-indigo-600 hover:text-gray-500" href="mailto:email@domain.com">email@domain.com</a></h4>
-                <div class="social-container">
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="#your-link">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-youtube fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </div> <!-- end of social-container -->
-            </div> <!-- end of container -->
-        </div> <!-- end of footer -->
-        <!-- end of footer -->
-        
+        <div class="container px-4 sm:px-8">
+            <h4 class="mb-8 lg:max-w-3xl lg:mx-auto text-center font-medium leading-relaxed">
+            En <strong>Jenny Beauty Estudio</strong> combinamos elegancia, cuidado y estilo para ofrecerte servicios profesionales de uñas y belleza. Contáctanos en <a class="text-pink-700 hover:text-pink-900 font-semibold" href="mailto:contacto@jennybeauty.com">contacto@jennybeauty.com</a>
+            </h4>
+
+            <div class="social-container flex justify-center gap-6 py-6 text-pink-600">
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook" class="hover:text-pink-800 text-2xl">
+            <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram" class="hover:text-pink-800 text-2xl">
+            <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok" class="hover:text-pink-800 text-2xl">
+            <i class="bi bi-tiktok"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp" class="hover:text-pink-800 text-2xl">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+        </div>
+
+        </div>
+        </div>
 
         <!-- Copyright -->
-        <div class="copyright">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
-                <ul class="mb-4 list-unstyled p-small">
-                    <li class="mb-2"><a href="article.html">Article Details</a></li>
-                    <li class="mb-2"><a href="terms.html">Terms & Conditions</a></li>
-                    <li class="mb-2"><a href="privacy.html">Privacy Policy</a></li>
-                </ul>
-                <p class="pb-2 p-small statement">Copyright © <a href="#your-link" class="no-underline">Your name</a></p>
-
-                <p class="pb-2 p-small statement">Distributed by :<a href="https://themewagon.com/" class="no-underline">Themewagon</a></p>
-            </div> 
-
-        <!-- end of container -->
-        </div> <!-- end of copyright -->
-        <!-- end of copyright -->
-
+        <div class="copyright bg-white text-pink-800 py-4 text-sm">
+        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3 items-center">
+            <ul class="mb-4 lg:mb-0 list-none flex gap-4 justify-center lg:justify-start">
+            <li><a href="article.html" class="hover:underline">Sobre Nosotros</a></li>
+            <li><a href="terms.html" class="hover:underline">Términos y Condiciones</a></li>
+            <li><a href="privacy.html" class="hover:underline">Política de Privacidad</a></li>
+            </ul>
+            <p class="text-center">© 2025 <strong>Jenny Beauty Estudio</strong>. Todos los derechos reservados.</p>
+            <p class="text-center lg:text-right">Diseñado con ❤️ por JIGT & JRMT</p>
+        </div>
+        </div>
 
         <!-- Scripts -->
         <script src="js/jquery.min.js"></script> <!-- jQuery, obligatorio antes de otros plugins -->

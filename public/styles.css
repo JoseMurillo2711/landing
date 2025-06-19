@@ -1,12 +1,13 @@
+#home button {
+    scroll-behavior: smooth;
+  }
 
 body,
 p {
-    color: #6b747b;
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
 h1 {
-    color: #252c38;
     font-weight: 700;
     font-size: 2.5rem;
     line-height: 3.125rem;
@@ -559,7 +560,6 @@ input[type="checkbox"] {
     padding: 3.125rem 1rem 2.125rem 1rem;
     border: none;
     border-radius: 16px;
-    background-color: #f1f9fc;
 }
 
 .cards-1 .card-image {
@@ -683,6 +683,7 @@ input[type="checkbox"] {
 
 .slider-1 .slider-container {
     position: relative;
+    background-color: transparent;
 }
 
 .slider-1 .swiper-container {
@@ -738,7 +739,7 @@ input[type="checkbox"] {
 .cards-2 {
     position: relative;
     padding-top: 8rem;
-    background: linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url("../images/pricing-background.jpg") center center no-repeat;
+    background: linear-gradient(rgba(243, 182, 227, 0.5), rgba(241, 242, 243, 0.9)), url("../public/assets/footer.jpg") center center no-repeat;
     background-size: cover;
     text-align: center;
 }
@@ -774,7 +775,7 @@ input[type="checkbox"] {
 }
 
 .cards-2 .card .value {
-    color: #252c38;
+    color: #383125;
     font-weight: 600;
     font-size: 5rem;
     line-height: 5rem;
@@ -844,9 +845,10 @@ input[type="checkbox"] {
 /******************/
 .footer {
     padding-top: 6rem;
-    padding-bottom: 3rem;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(197, 234, 249, 1));
+    padding-bottom: 0.5rem;
+    background: transparent;
     text-align: center;
+    border-top: 3px solid #ffffff;
 }
 
 .footer a {
@@ -883,7 +885,7 @@ input[type="checkbox"] {
 /*********************/
 .copyright {
     padding-top: 1.5rem;
-    background-color: #c5eaf9;
+    background-color: transparent;
     text-align: center;
 }
 
@@ -899,7 +901,7 @@ a.back-to-top {
     width: 42px;
     height: 42px;
     border-radius: 30px;
-    background: #343e48 url("../images/up-arrow.png") no-repeat center 47%;
+    background: #343e48 url("../public/assets/up-arrow.png") no-repeat center 47%;
     background-size: 18px 18px;
     text-indent: -9999px;
 }
